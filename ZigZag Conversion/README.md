@@ -18,3 +18,5 @@ Write the code that will take a string and make this conversion given a number o
 string convert(string text, int nRows);
 
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+p.s. It's about a matter of making the character show in a curve.
