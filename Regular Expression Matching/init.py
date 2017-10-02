@@ -22,3 +22,7 @@ class Solution(object):
                     dp[index][sub_index] = index > 0 and dp[index - 1][sub_index - 1] and (s[index - 1] == p[sub_index - 1] or p[sub_index - 1] == '.')
 
         return dp[ m ][ n ]
+    
+    """
+    Handle with dynamic programming.
+    """
