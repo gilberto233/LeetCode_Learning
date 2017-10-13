@@ -37,3 +37,7 @@ class Solution(object):
 
         self.result = False
         return endpoint
+        
+        """
+        Please refer to the solution given by xiaoying10101
+        """
