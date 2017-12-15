@@ -20,12 +20,7 @@ class Solution:
                     result += ( str( len( counter ) ) + prevChar )
                     prevChar = buffer[ index ]
                     counter.clear()
-                    #counter.append( buffer[ index ] )
-                #else:
-                    #counter.append( buffer[ index ] )
                 counter.append( buffer[ index ] )
-            #if buffer:
-            #    result += ( str( len( counter ) ) + prevChar )
             result += ( str( len( counter ) ) + prevChar )
 
             return result
